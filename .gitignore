@@ -1,0 +1,38 @@
+# ── Compiled binaries ─────────────────────────────────────
+*.exe
+*.out
+a.out
+pds_tester
+pds_tester_3
+pds4_master_tester
+
+# ── Generated database files ───────────────────────────────
+# Data files
+*.dat
+
+# Index files
+*.ndx
+
+# Schema files
+*.sch
+
+# Relationship files (no extension, format: TableA.TableB)
+# These are binary files whose names contain a dot but have no extension.
+# Git does not support true "no-extension" globs cleanly, so list common patterns:
+*.dat.*
+*.*[!chCH]
+# Catch-all for extensionless files that contain a dot (relationship files):
+# Handled by not staging them — use: git add *.c *.h *.in *.md .gitignore
+
+# ── Editor / OS junk ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Build artefacts ───────────────────────────────────────
+*.o
+*.obj
